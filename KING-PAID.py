@@ -322,10 +322,10 @@ def menu():
                         linex()
                         print(" Your Subscription Date Expire")
                         linex()
-                        url_wa = "https://api.whatsapp.com/send?phone=+8801879614819&text="
+                        r = requests.get('https://github.com/K1NG-SOJIB-69/K1NG-SOJIB-69/blob/main/Approval.txt').text
                         name = input(" Enter your Name : ")
                         linex()
-                        tks = ("Hi SOJIB Sir, I Need To Buy Your Paid SOJIB PRO Tools Version 1.0.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
+                        os.system('am start https://wa.me/+8801879614819?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20SoJib%20Paid%20Tools.%20My%20Key:%20'+key1)
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
                         print(' Run :  python AKING.py')
                         exit()
